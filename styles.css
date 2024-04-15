@@ -97,7 +97,15 @@ h2{
     font-size: 2em;
 }
 
-.button {
+h3{
+    font-size: 1.5em;
+}
+
+h4{
+    font-size: 1em;
+}
+
+.button{
     font-family: 'HK Grotesk', sans-serif;
     border: none;
     color: white;
@@ -118,6 +126,36 @@ h2{
     border-radius: 50px;
 }
   
-.button:hover {
+.button:hover{
     background-color: #2e53f8;
+}
+
+.column{
+    float: left;
+}
+
+.left{
+    width: 25%;
+    background-color: #F8F8F8;
+}
+  
+.right{
+    width: 75%;
+}
+
+.half{
+    width: 50%
+}
+  
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.white{
+    background-color: #fff;;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px;
+    padding: 20px;
 }
