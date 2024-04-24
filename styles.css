@@ -8,6 +8,7 @@
     right: 0;
     position: fixed;
     background-color: #152a86;
+    font-size: 1.2em;
 }
 #nav ul {
     padding: 0;
@@ -126,7 +127,7 @@ h4{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.2em;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
